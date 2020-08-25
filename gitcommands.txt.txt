@@ -1,8 +1,10 @@
+=> learnt basic of git and github from "codewithharry" if the repository is private then follow these steps
+
 git config --global user.name Mandeep
 
 git config --global user.email "singhmar1655@gmail.com"
 
-touch .gitignore
+touch .gitignore ( to ignore any folder)
 
 git init
 
@@ -12,13 +14,13 @@ git commit -m "Initial commit"
 
 git status
 
-git remote add origin git@github.com:Mandeepsinghmar/itselonmusk.git
+git remote add origin git@github.com:Mandeepsinghmar/itselonmusk.git ( this is the SSH link that we have to take from the new repository where we are trying to push our source code ) 
 
 git push origin master
 
 ssh-keygen -t rsa -b 4096 -C "singhmar1655@gmail.com"
 
-cat /c/Users/HP/.ssh/id_rsa.pub
+cat /c/Users/HP/.ssh/id_rsa.pub  ( in this step after getting key paste that key on github)
 
 git push origin master
 
@@ -31,4 +33,24 @@ commands for " if we have to add extra folder to our exist repository"
 git commit -m "Added nameoffolder"
 
 git push origin master
+
+
+
+
+
+Easy command that i learn from tanay pratap=>>> 
+
+git init
+
+echo "# itselonmusk" >> README.md
+
+git add .
+
+git remote add origin git@github.com:Mandeepsinghmar/itselonmusk.git ( this is the SSH link that we have to take from the new repository where we are trying to push our source code )
+
+git push origin master
+
+git status
+
+git commit -m "first commit"
 
