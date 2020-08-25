@@ -54,3 +54,48 @@ git status
 
 git commit -m "first commit"
 
+
+
+
+7 git bash commands
+
+pwd  'present working directory'
+
+ls   'list'
+
+cd   'change directory'
+
+cd example folder/
+
+mkdir example   'make new directory(project)
+
+touch .gitignore   ( to ignore any folder)
+
+touch example    ( to make new file)
+
+cd ..   'to go back'
+
+rm  'to delete files'
+
+rm -rf  'to delete directory (folder)'
+
+
+clear 'to start everything new'
+
+
+
+8 git bash commands
+
+git pull 'to pull the files'
+
+git status 'to chech the status'
+
+git diff 'to check what changes has been made in your code or files'
+
+git checkout 'if we dont want to change our code or file'
+
+git add . ' to get our code live'
+
+git commit -m 'fix:bug'   'whatever change we have made our code mention it e.g - 'fix:image,bio,description'
+
+git push 'to push our code to server'
