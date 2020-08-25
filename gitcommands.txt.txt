@@ -21,3 +21,14 @@ ssh-keygen -t rsa -b 4096 -C "singhmar1655@gmail.com"
 cat /c/Users/HP/.ssh/id_rsa.pub
 
 git push origin master
+
+
+-( we have not to say "git init" everytime)
+
+commands for " if we have to add extra folder to our exist repository"
+ git add .
+
+git commit -m "Added nameoffolder"
+
+git push origin master
+
