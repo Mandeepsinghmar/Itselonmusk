@@ -2,7 +2,7 @@
 {
     background-color:#8bd5f7;
     color:white;
-    height: 100vh;
+    height: 150vh;
     font-family: monospace;
     display:flex;
     flex-direction: column;
@@ -36,7 +36,8 @@ h3
     color:white;
     font-size:x-large;
 }
-.name {
+.name 
+{
     color:black;
     font-size: large;
 }
