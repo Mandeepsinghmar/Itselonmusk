@@ -20,4 +20,4 @@ ssh-keygen -t rsa -b 4096 -C "singhmar1655@gmail.com"
 
 cat /c/Users/HP/.ssh/id_rsa.pub
 
-git push origin master
+git push orgin master
